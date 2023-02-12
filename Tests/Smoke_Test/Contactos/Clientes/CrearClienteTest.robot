@@ -1,8 +1,8 @@
 Language: Spanish
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../../../../../Resources/Contactos/Clientes/Crear/CrearClienteKeyWords.robot
-Resource    ../../../../../Resources/Common/Login/LoginKeyWords.robot
+Resource    ../../../../Resources/Contactos/Clientes/Crear/CrearClienteKeyWords.robot
+Resource    ../../../../Resources/Common/Login/LoginKeyWords.robot
 Test Teardown    Close Browser
 
 *** Casos De Prueba ***
